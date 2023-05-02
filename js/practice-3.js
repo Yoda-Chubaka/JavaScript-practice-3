@@ -152,3 +152,47 @@
 // console.log(apartment[values]);
 
 // Task #11
+// const keys = [];
+// const values = [];
+// const advert = {
+//   service: "apt",
+// };
+// const apartment = Object.create(advert);
+// apartment.descr = "Spacious apartment in the city center";
+// apartment.rating = 4;
+// apartment.price = 2153;
+
+// for (const key in apartment) {
+// if (apartment.hasOwnProperty(key)) {
+//   keys.push(key);
+//   values.push(apartment[key]);
+// }
+ 
+// }
+
+// Task #12
+// function countProps(object) {
+//   let propCount = Object.keys(object).length;
+ 
+// for (let i=0; i<object.length; i+=1) {
+//   if (countProps.hasOwnProperty(propCount)) {
+    
+//   }
+// }
+//   return propCount;
+// }
+
+// Task #13
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// const keys = Object.keys(apartment);
+// for (const key of keys) {
+//   values.push(apartment[key])
+// }
+// console.log(apartment);
+
+// Task #14
