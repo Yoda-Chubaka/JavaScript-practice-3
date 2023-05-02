@@ -196,3 +196,22 @@
 // console.log(apartment);
 
 // Task #14
+// function countProps(object) {
+//   let propCount = Object.keys(object).length;
+// const keys = Object.keys(countProps);
+//   for (const key in object) {
+//   }
+//   return propCount;
+// }
+
+// Task #15
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+// console.log(apartment);
+
+// Task #16
