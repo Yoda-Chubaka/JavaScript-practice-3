@@ -272,19 +272,93 @@
 
 
 // Task #20
-const products = [
-  { name: "Radar", price: 1300, quantity: 4 },
-  { name: "Scanner", price: 2700, quantity: 3 },
-  { name: "Droid", price: 400, quantity: 7 },
-  { name: "Grip", price: 1200, quantity: 9 },
-];
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
 
-function calculateTotalPrice(productName) {
-const totalPrice = price * quantity; 
-  for (product of products) {
-    if (product.hasOwnProperty(propName)) {
+// function calculateTotalPrice(productName) {
+//   let totalPrice = 0;
 
-    }
-  }
-return totalPrice;
-}
+//   for (const product of products) {
+//     if (productName === product.name) {
+//       totalPrice = product.price * product.quantity;
+//     }
+//   }
+//   return totalPrice;
+// };
+
+// Task #21
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+
+// const { yesterday, today, tomorrow} = highTemperatures;
+
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// Task #22
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+
+// const {
+//   yesterday,
+//   today,
+//   tomorrow,
+//   icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+// } = highTemperatures;
+
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// Task #23
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const { yesterday, today, tomorrow, icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"} = highTemperatures;
+
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// Task #24
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+
+// for (const { hex, rgb } of colors) {
+//   hexColors.push({ hex, rgb }.hex);
+//   rgbColors.push({ hex, rgb }.rgb);
+// }
+
+// Task #25
+const forecast = {
+  today: {
+    low: 28,
+    high: 32,
+    icon: "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+  },
+  tomorrow: {
+    low: 27,
+    high: 31,
+  },
+};
+// Change code below this line
+const {
+  tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+  todayIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+  today: { low, high, icon },
+  tomorrow: { low, high },
+} = forecast;
