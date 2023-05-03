@@ -366,3 +366,68 @@
 // }
 
 // Task #27
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+// console.log(bestScore);
+// console.log(worstScore);
+
+// Task #28
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+
+// const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+// console.log(allScores);
+// console.log(bestScore);
+// console.log(worstScore);
+
+// Task #29
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// const finalSettings = { ...defaultSettings, ...overrideSettings };
+// console.log(finalSettings);
+
+// Task #30
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   return {...{completed, category, priority},...data}
+// }
+
+// Task #31
+// function add(...args) {
+//    let total = 0;
+//   for (const arg of args) {
+//      total += arg;
+//    }
+//    return total;
+// }
+
+// Task #32
+// function addOverNum(num, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > num) {
+//     total += arg;
+//   }
+//   }
+//   return total;
+// }
+
+// Task #33
+
