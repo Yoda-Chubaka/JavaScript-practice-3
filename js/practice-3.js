@@ -430,4 +430,16 @@
 // }
 
 // Task #33
+// function findMatches(allowedNumbers, ...args) {
+//   const matches = [];
 
+//   for (let arg of args) {
+//     if (allowedNumbers.includes(arg)) {
+//       matches.push(arg);
+//     }
+//   }
+ 
+//   return matches;
+// }
+
+// Task #34
